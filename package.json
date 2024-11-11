@@ -1,6 +1,6 @@
 {
   "name": "showcase-jawadvajeeh",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An interactive command line portfolio showcasing Jawad Vajeeh's skills, projects and accomplishments in tech.",
   "main": "index.js",
   "type": "module",
@@ -10,15 +10,15 @@
   "scripts": {},
   "keywords": [
     "cli",
-	"jawadvajeeh",
-	"jawad",
-	"vajeeh"
+    "jawadvajeeh",
+    "jawad",
+    "vajeeh"
   ],
   "author": {
-	"name":"Jawad Vajeeh",
-	"email":"jawadvajeeh@gmail.com"
-	},
-  "repository":"jawadsab/showcase-jawadvajeeh",
+    "name": "Jawad Vajeeh",
+    "email": "jawadvajeeh@gmail.com"
+  },
+  "repository": "jawadsab/showcase-jawadvajeeh",
   "license": "ISC",
   "dependencies": {
     "cli-welcome": "^3.0.0"
