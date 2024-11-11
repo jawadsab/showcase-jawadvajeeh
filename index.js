@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log('Mohammed Abdul Jawad Vajeeh - Software Engineer!');
+console.log('Mohammed Abdul Jawad Vajeeh - Software Engineer!🖥️');

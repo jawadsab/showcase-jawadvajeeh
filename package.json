@@ -1,6 +1,6 @@
 {
   "name": "showcase-jawadvajeeh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An interactive command line portfolio showcasing Jawad Vajeeh's skills, projects and accomplishments in tech.",
   "main": "index.js",
   "bin": {
