@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "An interactive command line portfolio showcasing Jawad Vajeeh's skills, projects and accomplishments in tech.",
   "main": "index.js",
-  "scripts": {
+  "bin": {
+    "jawadvajeeh": "index.js"
   },
+  "scripts": {},
   "keywords": [
     "cli"
   ],
