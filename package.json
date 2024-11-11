@@ -9,9 +9,16 @@
   },
   "scripts": {},
   "keywords": [
-    "cli"
+    "cli",
+	"jawadvajeeh",
+	"jawad",
+	"vajeeh"
   ],
-  "author": "Jawad Vajeeh",
+  "author": {
+	"name":"Jawad Vajeeh",
+	"email":"jawadvajeeh@gmail.com"
+	},
+  "repository":"jawadsab/showcase-jawadvajeeh",
   "license": "ISC",
   "dependencies": {
     "cli-welcome": "^3.0.0"
