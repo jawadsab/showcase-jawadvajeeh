@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "An interactive command line portfolio showcasing Jawad Vajeeh's skills, projects and accomplishments in tech.",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "jawadvajeeh": "index.js"
   },
@@ -11,5 +12,8 @@
     "cli"
   ],
   "author": "Jawad Vajeeh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cli-welcome": "^3.0.0"
+  }
 }

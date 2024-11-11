@@ -1,20 +1,14 @@
 #!/usr/bin/env node
-console.log('Mohammed Abdul Jawad Vajeeh - Software Engineer!🖥️');
 
-const [, , command, ...args] = process.argv;
+import pkgJSON from './package.json' assert {type: 'json'};
+import welcome from 'cli-welcome';
 
-if (command) {
-	switch (command) {
-		case "profession":
-			displayProfession();
-			break;
-
-		default:
-			console.log("Unknown command. Available commands: profession");
-	}
-}
-
-
-function displayProfession() {
-	console.log('Jawad Vajeeh is a software engineer')
-}
+welcome({
+	title: pkgJSON.name,
+	tagLine: `Welcome to my CLI portfolio!`,
+	description: pkgJSON.description,
+	version: pkgJSON.version,
+	bgColor: "#FFF689",
+	bold: true,
+	clear: true
+});
